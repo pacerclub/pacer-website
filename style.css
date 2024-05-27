@@ -266,3 +266,84 @@ footer p {
     border-radius: 20px;
     color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    .badge {
+        font-size: 20px;
+    }
+
+    .hero h1 {
+        font-size: 4em!important;
+    }
+
+    .hero h2 {
+        font-size: 2em!important;
+    }
+
+    .mission-content, .joinus-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mission-content img, .mission-content div, .box {
+        max-width: 100%;
+    }
+
+    .section-content h2 {
+        font-size: 2.5em;
+    }
+
+    .joinus-text, .mission-content div {
+        font-size: 1.4em;
+        max-width: 100%;
+    }
+
+    .box {
+
+        max-width: 100%
+    }
+
+    .box img {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .joinus-text, .mission-content div {
+        margin: 0;
+    }
+
+    .badge {
+        font-size: 10px;
+    }
+
+    .box p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero, .section-content {
+        padding: 10px;
+    }
+
+    .badge {
+        padding: 5px 15px;
+        font-size: 8px;
+    }
+
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
