@@ -300,6 +300,10 @@ footer p {
         max-width: 100%;
     }
 
+    .joinus-text {
+        margin: 20px!important;
+    }
+
     .box {
 
         max-width: 100%
