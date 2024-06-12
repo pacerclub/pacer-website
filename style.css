@@ -300,6 +300,10 @@ footer p {
         max-width: 100%;
     }
 
+    .strong {
+        font-size: 1.4em!important;
+    }
+
     .joinus-text {
         margin: 20px!important;
     }
@@ -350,4 +354,19 @@ footer p {
         width: 100%;
         margin-bottom: 20px;
     }
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #e2ff00;
+    transition: 0.1s ease-out;
+}
+
+a:hover {
+    color: #a4bb00;
 }
